@@ -23,13 +23,13 @@ pipe = pipeline(
 llm = HuggingFacePipeline(pipeline=pipe)
 
 template = """
-Analyze the following article excerpt and provide a concise summary, key points:
+Analyze the following article excerpt and provide a concise summary, key points, and a critical analysis:
 
 Article excerpt: {article}
 
 Summary:
 Key Points:
-
+Critical Analysis:
 
 """
 
