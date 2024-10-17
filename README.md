@@ -77,7 +77,7 @@ This repository contains a web application for analyzing and summarizing article
 Install them by running:
 ```bash
 pip install gradio langchain transformers requests beautifulsoup4
-
+```
 
 ## Limitations
 
